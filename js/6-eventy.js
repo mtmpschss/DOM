@@ -1,8 +1,7 @@
-
+  'use strict';
 var secondLink = document.getElementsByTagName("a")[1];
 
-function alarm(e){
-    'use strict';
+function alarm(e){  
     e.preventDefault();
     console.log("Kliknieto link")
     console.log(e.type)
